@@ -79,23 +79,29 @@ header{
 /* JUMBOTRON */
 
 .jumbotron{
-    display: flex;
-    justify-content:  center;
+    /* display: flex;
+    justify-content:  center; */
     flex-wrap: wrap;
     background-color: #b4d0e7;
     padding-top: 130px;
     /* debug */
-    height: 800px;
+    width: 100%;
+    text-align: center;
+    height: 575px;
 }
 .h-container{
     width: 35vw;
 }
 .sub-container{
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: left;
     flex-wrap: wrap;
     width: 35vw;
 }
 .col-left{
+    display: flex;
     width: calc(35vw / 2);
 
 }
@@ -103,3 +109,11 @@ header{
     display: inline-block;
 }
 
+.col-right{
+    display: flex;
+    width: calc(35vw / 2);
+}
+.Jumbo-pic{
+    width: 780px;
+    height: 452px;
+}

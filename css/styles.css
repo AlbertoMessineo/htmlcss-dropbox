@@ -79,18 +79,19 @@ header{
 /* JUMBOTRON */
 
 .jumbotron{
-    /* display: flex;
-    justify-content:  center; */
-    flex-wrap: wrap;
     background-color: #b4d0e7;
     padding-top: 130px;
     /* debug */
     width: 100%;
     text-align: center;
-    height: 575px;
+   
 }
 .h-container{
-    width: 35vw;
+    text-align: center;
+    width: 100%;
+}
+h1{
+    padding: 30px;
 }
 .sub-container{
     display: flex;
@@ -98,8 +99,11 @@ header{
     justify-content: space-between;
     text-align: left;
     flex-wrap: wrap;
-    width: 35vw;
+    width: 60vw;
+    margin: auto;
+  
 }
+/* COLONNA SINISTRA JUMBO */
 .col-left{
     display: flex;
     width: calc(35vw / 2);
@@ -107,13 +111,25 @@ header{
 }
 .jumbo{
     display: inline-block;
+    padding: 10px 0;
 }
-
+.jumbo>li{
+    padding: 16px 0;
+}
+.fa-arrow-down{
+    font-size: 50px;
+    padding-left: 50px;
+}
+/* COLONNA DESTRA JUMBO */
 .col-right{
     display: flex;
     width: calc(35vw / 2);
+    position: relative;
 }
 .Jumbo-pic{
+    position: absolute;
+    top: 27px;
+    right: 5px;
     width: 780px;
     height: 452px;
 }

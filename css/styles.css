@@ -50,8 +50,9 @@ header{
     height:100px;
     padding: 20px 5px;
     margin: 10px 0;
-    /* position: fixed; */
+    position: fixed;
     background-color: white;
+    z-index: 9999;
 }
 .bar-left{
     padding: 10px 0;
@@ -116,6 +117,13 @@ h1{
 .jumbo>li{
     padding: 16px 0;
 }
+.prova{
+    background-color: #0061ff;
+    color: white;
+    width: 200px;
+    height: 33px;
+    border: none;
+}
 .fa-arrow-down{
     font-size: 50px;
     padding-left: 50px;
@@ -133,3 +141,46 @@ h1{
     width: 780px;
     height: 452px;
 }
+/* end JUMBOTRON */
+
+
+/* MAIN */
+.first{
+    width: 60vw;
+    background-color: yellow;
+    margin: auto;
+}
+h2{
+    font-size: 40px;
+    width: 100% ;
+    margin: 200px;
+    margin-left: 10px;
+    margin-bottom: 50px;
+    text-align: left;
+
+}
+ .radio-buttons{
+    display: flex;
+ }
+ .radio-button{
+    display:flex; 
+    padding: 5px 15px;
+ }
+
+ .columns{
+    width: 100%;
+    display:flex
+ }
+ .colonna{
+    width: calc(100% / 3 - 30px);
+    border: 1px solid gainsboro;
+    margin-left: 20px;
+    margin-right: 20px;
+ }
+ .piano{
+    display: inline-block;
+ }
+ h6{
+    text-align: center;
+ }
+ 

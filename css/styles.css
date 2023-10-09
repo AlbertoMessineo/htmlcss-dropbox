@@ -92,9 +92,14 @@ header{
 }
 .sub-container{
     display: flex;
-    align-self: baseline;
+    flex-wrap: wrap;
     width: 35vw;
+}
+.col-left{
+    width: calc(35vw / 2);
 
 }
-
+.jumbo{
+    display: inline-block;
+}
 

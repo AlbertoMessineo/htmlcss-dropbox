@@ -215,5 +215,31 @@ label{
     line-height: 3;
  }
  
+
+ /* 3RD SECTION */
+ .container-img-p  {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px auto;
+    width: calc(60vw - 20px) ;
+    height: 60vw;
+    /* DEBUG */
+    background-color: yellowgreen;
+ } 
+ .partners{
+    width: 60%;
+    height: 60%;
+    align-self: flex-start;
+ }
+  img{
+    padding: 10px 10px;
+    width: 100%;
+    height: 90%;    
+ }
  
+.caption{
+    width: 40%;
+    padding: 30px;
+}
+
  

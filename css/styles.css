@@ -242,4 +242,47 @@ label{
     padding: 30px;
 }
 
- 
+/* 4TH SECTION */
+.grid{
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 60vw;
+    /* background-color: aqua; */
+
+}
+.cell{
+    width: calc(60vw / 3);
+    /* debug */
+}   
+ .grid-img{
+  display: inline-block;
+  width: calc(60vh / 3);
+  height: auto;
+ }   
+
+
+
+.h2container{
+    width: 60vw;
+    margin: 0 auto;
+}
+.secondo{
+    text-align: left;
+    font-size: 40px;
+    width: 100% ;    
+    margin-bottom: 50px;
+}
+
+h5{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 0;
+}
+.p-cell{
+    font-size: 14px;
+    padding-top: 10px;
+    line-height: 1.1;
+
+}

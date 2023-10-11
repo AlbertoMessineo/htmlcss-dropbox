@@ -262,8 +262,6 @@ label{
   height: auto;
  }   
 
-
-
 .h2container{
     width: 60vw;
     margin: 0 auto;
@@ -299,28 +297,45 @@ h5{
 .container-all{
     display: flex;
     flex-wrap: nowrap;
-    width: 100vw;
+    width: 100%;
     margin-top: 100px;
 
 }
 .square{
     width: calc(100vw / 3);
     height: calc(100vw / 3);
+    display: flex;
+    flex-wrap: wrap;
 }
-.inverted{
-    margin: 0;
-    padding: 0;
+
+/* CENTER SQUARE CONTENT */
+.center{
+    background-color:#f5f5f5 ;
+    flex-direction: column;
+    
 }
+.black{
+   height: 100px;
+    /* scale: 0.65; */
+}
+hr{
+    width: 15%;
+}
+
+/* END CENTER SQUARE CONTENT */
+
 .logos{
     display: flex;
     justify-content: center;
     align-items: center;
     width: 50%;
     height: 50%;
+    
 }
-/* SQUARES COLOR */
+/* little SQUARES COLOR */
 .green{
     background-color:#a2d39b ;
+    border: solid 20px #d1e9cd;
 
 }
 .bordeaux{
@@ -343,4 +358,12 @@ h5{
 }
 .yellow{
     background-color:#ffd830 ;
+}
+
+.logo{
+    filter: invert();
+    scale: 0.5;
+}
+.arizona{
+    height: 25%;
 }

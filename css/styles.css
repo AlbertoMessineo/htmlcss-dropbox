@@ -27,7 +27,7 @@ li:not(.Inizia){
     padding-top: 10px;
 
 }
-a{
+.topbar-links{
     color: black;
     text-decoration: none;
 }
@@ -253,12 +253,12 @@ label{
 
 }
 .cell{
-    width: calc(60vw / 3);
-    /* debug */
+    width: calc(60vw / 3 - 40px);
+    margin: 15px 20px;
 }   
  .grid-img{
   display: inline-block;
-  width: calc(60vh / 3);
+  width: 310px;
   height: auto;
  }   
 
@@ -285,4 +285,62 @@ h5{
     padding-top: 10px;
     line-height: 1.1;
 
+}
+/* 5TH SECTION */
+.h2container-2nd{
+    width: 40vw;
+    margin: 0 auto;
+    margin-left: 370px;
+}
+.last{
+    padding-left:  10px;
+}
+/* 6TH SECTION */
+.container-all{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100vw;
+    margin-top: 100px;
+
+}
+.square{
+    width: calc(100vw / 3);
+    height: calc(100vw / 3);
+}
+.inverted{
+    margin: 0;
+    padding: 0;
+}
+.logos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 50%;
+}
+/* SQUARES COLOR */
+.green{
+    background-color:#a2d39b ;
+
+}
+.bordeaux{
+    background-color:#61082b ;
+}
+.blu-oil{
+    background-color:#0093ce ;
+}
+.red{
+    background-color:#ff1c1c ;
+}
+.brown{
+    background-color:#d5001f ;
+}
+.acqua{
+    background-color:#b4d0e7 ;
+}
+.blue{
+    background-color:#0d2481 ;
+}
+.yellow{
+    background-color:#ffd830 ;
 }

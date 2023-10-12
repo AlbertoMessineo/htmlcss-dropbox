@@ -228,6 +228,9 @@ label {
     padding: 5px 10px;
     font-size: 20px;
 }
+.users{
+    font-size: 17px;
+}
 
 .piano {
     display: inline-block;
@@ -277,7 +280,7 @@ h6 {
     padding-top: 10px;
 }
 .fa-building{
-    font-size: 25px;
+    font-size: 17px;
 }
 
 

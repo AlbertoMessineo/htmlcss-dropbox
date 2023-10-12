@@ -35,7 +35,12 @@ h1 {
     width: 70vw;
     margin: 0 auto;
 }
-
+.icon{
+    padding-right: 10px;
+}
+.fa-check{
+    color: #0061ff;
+}
 /* blue buttons */
 .blu {
     background-color: #0061ff;
@@ -47,7 +52,7 @@ h1 {
 
 .container {
     width: 60vw;
-    margin: 50px auto;
+    margin: 50px auto 0 auto;
 }
 
 /* HEADER */
@@ -228,7 +233,9 @@ label {
     display: inline-block;
     line-height: 3;
 }
-
+.month{
+    color: rgb(173, 173, 173); 
+}
 .trial {
     padding: 5px 20px;
 }
@@ -241,20 +248,36 @@ h6 {
     font-size: 16px;
     border-bottom: 1px solid gainsboro;
 }
+.piano > li{
+    padding: 15px 0 5px 0;
+}
 
 /* 2ND SECTION */
 /* COLONNA LARGA */
 .col-wide {
     width: calc(60vw - 40px);
-    padding-top: 30px;
+    padding-top: 10px;
     margin: 30px auto;
     border: 1px solid gainsboro;
+}
+.col-wide > h6{
+    font-size: 25px;
 }
 
 .container-wide {
     display: flex;
     justify-content: space-between;
     line-height: 3;
+}
+.team{
+    padding: 0 10px 0 10px;
+}
+.right-part{
+    padding-right: 10px;
+    padding-top: 10px;
+}
+.fa-building{
+    font-size: 25px;
 }
 
 
@@ -289,6 +312,14 @@ img {
 .p-caption{
     padding: 20px 0;
 }
+.white{
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 14px;
+}
+
+
+
 /* 4TH SECTION */
 .grid {
     margin: 20px auto;
@@ -471,28 +502,29 @@ hr {
     text-align: left;
 }
 
-.domanda  {
-    /* line-height: 4; */
+.domanda {
     border-top: 1px solid gainsboro;
     border-bottom: 1px solid gainsboro;
-      
-}
-.debug {border:1px solid red}  
-.tohover{
+  }
+  
+  .toHover {
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-.risposta {
+    padding: 25px 5px;
+  }
+  
+  .risposta {
+    transition: height 300ms ease-in-out;
     visibility: hidden;
     height: 0;
-}
-
-.tohover:hover .risposta {
+  }
+  
+  .toHover:hover + .risposta {
     height: 100px;
+    padding: 10px 5px;
     visibility: visible;
-}
-
+  }
 
 /* FOOTER */
 
@@ -502,6 +534,10 @@ footer {
 
 .ft {
     display: flex;
+}
+.ft-last {
+    width: 60vw;
+    margin: 0 auto 0 auto;
 }
 
 .footer {
